@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="menu-icon">☰</div>
+            <div class="logo">
+                <span class="red">You</span><span>Tube</span>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>🔍</button>
+        </div>
+        <div class="header-right">
+            <div class="upload-icon">↑</div>
+            <div class="notifications-icon">🔔</div>
+            <div class="avatar">👤</div>
+        </div>
+    </header>
+
+    <main class="video-page">
+        <div class="video-player">
+            <iframe id="video-iframe" width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
+            <h1 id="video-title"></h1>
+            <div class="video-actions">
+                <div class="video-stats">
+                    <span id="video-views"></span> views • <span id="video-date"></span>
+                </div>
+                <div class="action-buttons">
+                    <button class="like-button">👍 <span id="like-count">0</span></button>
+                    <button class="dislike-button">👎 <span id="dislike-count">0</span></button>
+                    <button class="share-button">↗️ Share</button>
+                </div>
+            </div>
+            <div class="channel-info">
+                <div class="channel-avatar">👤</div>
+                <div class="channel-details">
+                    <h3 id="channel-name"></h3>
+                    <p>1.2M subscribers</p>
+                </div>
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+            <div class="video-description">
+                <p id="video-description"></p>
+            </div>
+        </div>
+        <div class="video-suggestions">
+            <h3>Up next</h3>
+            <!-- Suggested videos will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
