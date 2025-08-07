@@ -52,7 +52,7 @@ const videos = [
     },
     {
         id: 'RgKAFK5djSk',
-        title: 'Wiz Khalifa - See You Again ft. Charlie Puth',
+        title: 'pk dark - See You Again ft. Charlie Puth',
         channel: 'Wiz Khalifa',
         views: '6.4B views',
         date: 'Apr 6, 2015',
