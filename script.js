@@ -51,6 +51,16 @@ const videos = [
         dislikes: '1.3M'
     },
     {
+        id: 'RgKAFK5djSk',
+        title: 'Wiz Khalifa - See You Again ft. Charlie Puth',
+        channel: 'Wiz Khalifa',
+        views: '6.4B views',
+        date: 'Apr 6, 2015',
+        description: 'See You Again by Wiz Khalifa ft. Charlie Puth from Furious 7: The Album available now.\n\nDownload here: https://atlantic.lnk.to/furious7\n\nDirected by: Marc Klasfeld\n\nFollow Wiz Khalifa:\nhttps://www.twitter.com/wizkhalifa\nhttps://www.facebook.com/wizkhalifa\nhttps://www.instagram.com/mistercap\n\nFollow Charlie Puth:\nhttps://www.twitter.com/charlieputh\nhttps://www.facebook.com/charlieputh\nhttps://www.instagram.com/charlieputh',
+        likes: '42M',
+        dislikes: '1.3M'
+    },
+    {
         id: 'OPf0YbXqDm0',
         title: 'Mark Ronson - Uptown Funk ft. Bruno Mars',
         channel: 'Mark Ronson',
